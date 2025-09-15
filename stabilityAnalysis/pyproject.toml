@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stabilityAnalysis"
+version = "0.1.0"
+description = "A package for building a stability map of a GNN"
+authors = [
+  { name = "Christine Zeh", email = "me@christinezeh.com" }
+]
+dependencies = [
+  # Add runtime dependencies here, e.g.:
+  # "requests>=2.25.1"
+]
